@@ -48,8 +48,9 @@ La aplicacion cuenta con diseño responsivo.
     - detalle de la ultima compra
 - Log Out
     -desactiva funciones, elementos, componentes y rutas exclusivos del usuario logeado.
+##
 
-### PM4: App web Front-End - E-Commerce de tecnologia (Version 1)
+### -> PM4: App web Front-End - E-Commerce de tecnologia (Version 1)
 
 Este repositorio es el original, desarrollado en el bootcamp de henry en el plazo de menos de un mes. Podran notar si lo desplegan de forma local, que es la misma aplicacion, con 2 diferencias: responsividad mas basica y validaciones ineficientes.
 
