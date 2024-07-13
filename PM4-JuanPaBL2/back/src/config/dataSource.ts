@@ -16,6 +16,9 @@ export const AppDataSource = new DataSource({
   synchronize: true,
   dropSchema: true,
   logging: false,
+  ssl: {
+    rejectUnauthorized: false // Esto permite conexiones SSL sin verificación del certificado
+  },
   entities: [User, Credential, Order, Product, Category],
   subscribers: [],
   migrations: [],
