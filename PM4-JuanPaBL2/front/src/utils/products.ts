@@ -5,6 +5,7 @@ export const fetchProducts = async (setProducts: any) => {
     try {
         const response = await axios.get<IProduct[]>("https://pm4-ecommerce-ficticio-frontend.onrender.com/products");
         setProducts(response.data);
+        console.log(" a ver q trae el deploy men", response);
         
     } catch (error) {
         console.error("Error fetching products:", error);
