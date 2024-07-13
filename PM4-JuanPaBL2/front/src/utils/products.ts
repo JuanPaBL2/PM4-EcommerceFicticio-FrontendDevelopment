@@ -3,7 +3,7 @@ import { IProduct } from "@/interfaces/interfazProducts";
 
 export const fetchProducts = async (setProducts: any) => {
     try {
-        const response = await axios.get<IProduct[]>("http://localhost:3002/products");
+        const response = await axios.get<IProduct[]>("https://pm4-ecommerce-ficticio-frontend.onrender.com/products");
         setProducts(response.data);
         
     } catch (error) {

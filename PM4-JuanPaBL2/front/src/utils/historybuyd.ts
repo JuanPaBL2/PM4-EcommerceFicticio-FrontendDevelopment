@@ -5,7 +5,7 @@ export const historyBuy = async (token: any, setOrderHistory:any) => {
         const headers = {
             Authorization: token
         };
-        const response = await axios.get('http://localhost:3002/users/orders',{ headers } )  
+        const response = await axios.get('https://pm4-ecommerce-ficticio-frontend.onrender.com/users/orders',{ headers } )  
         setOrderHistory(response.data)
     } catch (error) {
         console.log(error);

@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 
 export const loginUser = async (formData: any, setToken: any, setError: any, setIsSuccess: any, setIsLoading:any) => {
   try {
-    const response = await axios.post('http://localhost:3002/users/login', formData);
+    const response = await axios.post('https://pm4-ecommerce-ficticio-frontend.onrender.com/users/login', formData);
     const userData = {
       token: response.data.token,
       user: response.data.user

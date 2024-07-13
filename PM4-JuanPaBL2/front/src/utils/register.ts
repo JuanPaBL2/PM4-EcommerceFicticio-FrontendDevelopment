@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const registerUser = async (formData: any, setIsSuccess: any, setErrors: any, router: any, errors: any, setIsLoading: any) => {
   try {
-    const response = await axios.post('http://localhost:3002/users/register', formData);
+    const response = await axios.post('https://pm4-ecommerce-ficticio-frontend.onrender.com/users/register', formData);
     setIsSuccess(true);
     setErrors({});
     setTimeout(() => {

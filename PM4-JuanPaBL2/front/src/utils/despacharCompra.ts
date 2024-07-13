@@ -15,7 +15,7 @@ export const despacharCompraReq = async (cart: IProduct[], setCart: any, setItSu
     try {
         const products = cart.map(product => product.id) 
         const token = obtenerToken()
-        const response = await axios.post('http://localhost:3002/orders', {products}, {
+        const response = await axios.post('https://pm4-ecommerce-ficticio-frontend.onrender.com/orders', {products}, {
             headers: {
                 Authorization: token,
             }
