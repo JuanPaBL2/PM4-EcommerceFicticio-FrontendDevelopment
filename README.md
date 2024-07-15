@@ -54,4 +54,4 @@ La aplicacion cuenta con diseño responsivo.
 
 Este repositorio es el original, desarrollado en el bootcamp de henry en el plazo de menos de un mes. Podran notar si lo desplegan de forma local, que es la misma aplicacion, con 2 diferencias: responsividad mas basica y validaciones ineficientes.
 
-- [![Acceso a la version 1 del PM4](https://img.shields.io/badge/Acceder%20al%20Proyecto%204-blue)](./PM4-JuanPaBL2)
+- [![Acceso a la version 1 del PM4](https://img.shields.io/badge/Acceder%20al%20Proyecto%204-blue)](https://github.com/JuanPaBL2/Full-Stack-Henry-Bootcamp-Projects/tree/main/PM4-JuanPaBL2)
